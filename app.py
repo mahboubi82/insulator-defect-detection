@@ -125,8 +125,8 @@ if uploaded:
             counts[model.names[int(box.cls.item())]] += 1
 
         mc1, mc2, mc3 = st.columns(3)
-        mc1.metric("🔴 Broken",              counts["broken"])
-        mc2.metric("🟢 Healthy (insulator)", counts["insulator"])
+        mc1.metric("🔴 Broken", counts["broken"])
+        mc2.metric("🟢 Insulator", counts["insulator"])
         mc3.metric("🟣 Pollution-flashover", counts["pollution-flashover"])
 
         # Detail table
