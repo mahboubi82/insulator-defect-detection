@@ -1,6 +1,6 @@
 
-@Author: Me
-# Insulator Defect Detection — Web App
+
+# Insulator Defect Detection — Web App 2
 
 YOLOv8-powered web app for detecting and classifying electrical insulator defects.
 
