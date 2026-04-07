@@ -34,7 +34,7 @@ ICONS = {
 # ── Load model (cached) ───────────────────────
 @st.cache_resource
 def load_model():
-    model_path = Path("yolo1_from_colab_best.pt")
+    model_path = Path("best.pt")
     if not model_path.exists():
         st.error("❌ Model file 'best.pt' not found. Upload it to the repo root.")
         st.stop()
